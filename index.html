@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div style="display: flex;  gap: 15px;  justify-content: center;  " class="header">
+
+            <h2><img width="25" height="25"
+                    src=" https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/external-Sun-nutrition-smashingstocks-flat-smashing-stocks.png "
+                    alt="external-Sun-nutrition-smashingstocks-flat-smashing-stocks" /> AccuWeather
+            </h2>
+
+            <h4>Kathmandu, Bagmati 24°
+                <small style="font-size: 12px;">C</small><img width="25" height="25"
+                    src="https://img.icons8.com/ios/50/FFFFFF/rain--v1.png" alt="rain--v1" />
+            </h4>
+            <h5 style="padding-right:0% ;" class="flex-container">
+                <form style="gap: 0%;">
+                    <input type="text" name="search" placeholder="Address,City or Zip Code">
+                    <select name="form" id="location">
+                        <option value="Location">Location</option>
+                        <option value="News">News</option>
+                        <option value="Videos">Videos</option>
+                    </select>
+                </form>
+            </h5>
+            <h5 style="gap: 10px;" class="flex-container">
+                <img width="25" height="25" src="https://img.icons8.com/ios/50/FFFFFF/laptop-play-video--v2.png"
+                    alt="laptop-play-video--v2" />
+                <img width="25" height="25"
+                    src="https://img.icons8.com/external-creatype-glyph-colourcreatype/64/FFFFFF/external-hamburger-basic-creatype-glyph-colourcreatype.png"
+                    alt="external-hamburger-basic-creatype-glyph-colourcreatype" />
+            </h5>
+        </div>
+        <div style="display: flex;  gap: 25px; justify-content: center;  " class="nav">
+            <a href="">TODAY</a>
+            <a href="">HOURLY</a>
+            <a href="">DAILY</a>
+            <a href="">RADAR</a>
+            <a href="">MINUTECAST</a>
+            <a href="">MONTHLY</a>
+            <a href="">AIR QUALITY</a>
+            <a href="">HEALTH & ACTIVITIES</a>
+            <a href="">FOR BUSINESS</a>
+        </div>
+        <hr style="border: 1px solid #a2a5a6; width: 78%;">
+    </section>
+    <div style="position: absolute; left: 50%; transform: translateX(-50%);" class="adds">
+    </div>
+    <div style="display: flex; place-items: center; " class="today">
+        <div class="d1">
+            <div style=" display:flex; gap: 355px;">
+                <div>TODAY'S WEATHER</div>
+                <div><b>SUN, JUL 14</b></div>
+            </div>
+            <div>
+                <hr style="border: 1px solid #a2a5a6; ">
+                <div style="display: flex;" class="d3">
+                    <div
+                        style="display: flex; flex-direction: row;justify-content: space-between; align-items: center; font-size: 20px;">
+                        <img width="29" height="29"
+                            src="https://img.icons8.com/emoji/48/cloud-with-lightning-and-rain-emoji.png"
+                            alt="cloud-with-lightning-and-rain-emoji" />
+                        <p>Cloudy and humid; an afternoon thunderstorm or two Hi: 30°</p>
+
+                    </div>
+                    <div
+                        style="display: flex; flex-direction: row;justify-content: space-between; align-items: center; font-size: 20px;">
+                        <img width="29" height="29"
+                            src="https://img.icons8.com/emoji/48/cloud-with-lightning-and-rain-emoji.png"
+                            alt="cloud-with-lightning-and-rain-emoji" />
+                        <p>Tonight: Cloudy and humid with widely separated thunderstorms Lo: 21°</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d2"> </div>
+    </div>
+    </div>
+
+    <br>
+    <div style="display: flex; place-items: center; " class="current">
+
+        <div style="display: block; gap: 30px; width: 100%; justify-content: center;">
+            <div class="currentweather">
+                <div style=" display:flex; gap: 355px;">
+                    <div>CURRENT WEATHER</div>
+                    <div><b>4:04 PM</b></div>
+                </div>
+                <div>
+                    <hr style="border: 1px solid #a2a5a6; ">
+                </div>
+                <div style="display: flex;" class="weather">
+                    <!-- chaildweather1 start -->
+
+                    <div style="display: flex; gap: 9px;  justify-content: space-between; align-items: center; padding-top: 20px; align-items:self-start;"
+                        class="chaildweather1">
+                        <div>
+                            <div><img width="75px" height="75px" src="https://img.icons8.com/ios/50/cloud--v1.png"
+                                    alt="cloud--v1" /></div>
+                        </div>
+                        <div style="display:block; row-gap:0;">
+                            <p style="font-size:45px;"><b>24°</b><small style="font-size: 19px;">C</small></p>
+                            <p>RealFeel® 35°</p>
+                        </div>
+                        <div style="padding-left:0%; display: block;">
+
+                        </div>
+                    </div>
+
+                    <!-- chaildweather2 start -->
+
+                    <div style="padding-left: 10px;" class="chaildweather2">
+
+                        <div style="display: flex; text-align: center;  gap: 200px;">
+                            <p>RealFeel Shade</p>
+                            <p><b>31°</b></p>
+                        </div>
+                        <hr style="border: 1px solid #a2a5a6; ">
+                        <div style="display: flex; text-align: center;  gap: 225px;">
+                            <p>Wind</p>
+                            <p> <b>N 4 km/h</b></p>
+                        </div>
+                        <hr style="border: 1px solid #a2a5a6; ">
+                        <div style="display: flex; text-align: center;  gap: 200px;">
+                            <p>Wind Gusts</p>
+                            <p><b>4 km/h</b></p>
+                        </div>
+                        <hr style="border: 1px solid #a2a5a6; ">
+                        <div style="display: flex; text-align: center;  gap: 200px;">
+                            <p>Air Quality</p>
+                            <p style="color: rgb(11, 244, 96);"><b>Fair</b></p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br>
+            <!-- mapcontainer class start -->
+            <div class="mapcontainer">
+
+                <div style=" display:flex; gap: 355px; text-align: center;">
+                    <div>KATHMANDU WEATHER RADAR & MAPS</div>
+                </div>
+                <div class="map">
+                    <hr style="border: 1px solid #a2a5a6; ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224016.0901127837!2d80.80210435300792!3d28.682125171562504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a23d7a9386ebbd%3A0x332e5f66f1f197a9!2z4KSY4KWL4KSh4KS-4KSY4KWL4KSh4KWAIDEwOTAw!5e0!3m2!1sne!2snp!4v1721374030633!5m2!1sne!2snp"
+                        width="630" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <br>
+                <div style="display: flex; gap: 40px; ">
+                    <div style="display: flex; gap: 12px;" class="cloud">
+                        <img src="asset/img/cloud.jpg" alt="cloud">
+                        <p>Clouds</p>
+                    </div>
+                    <div style="display: flex; gap: 12px;" class="temp">
+                        <img src="asset/img/temprature.jpg" alt="temp">
+                        <p>Temperature</p>
+                    </div>
+                </div>
+            </div>
+            <!-- mapcontainer class end -->
+        </div>
+
+        <!-- topstories class start -->
+        <div class="topstories">
+            <div>
+                <h2>Top Stories</h2>
+                <hr style="border: 1px solid #a2a5a6; ">
+            </div>
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img1.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img2.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img3.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img4.jpg" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img5.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img6.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+        </div>
+
+        <!-- topstories class end -->
+    </div>
+
+
+    <!-- next section start  -->
+    <div style="display: flex; place-items: center; " class="nextsection">
+
+        <div style="display: block; gap: 30px; width: 100%; justify-content: center;">
+            <div class="currentweather1">
+                <div style=" display:flex; gap: 355px;">
+                    <div>HOURLY WEATHER</div>
+                </div>
+                <div>
+                    <hr style="border: 1px solid #a2a5a6; ">
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="border: 2px solid rgb(222, 222, 225); background-color:rgb(222, 222, 225); ; height: 130px; width: 34px; padding-top: 17%; border-radius: 6px;"
+                        class="arrow">
+                        <img width="30" height="30" src="https://img.icons8.com/material-sharp/24/back--v1.png"
+                            alt="back--v1" />
+                    </div>
+
+
+                    <div style="display: flex; gap: 14px;">
+                        <div class="hour">
+                            <p>5 PM</p>
+                            <img width="50" height="50"
+                                src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/external-sun-cloud-weather-inkubators-detailed-outline-inkubators.png"
+                                alt="external-sun-cloud-weather-inkubators-detailed-outline-inkubators" />
+                            <h2>30°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>49%</p>
+                            </div>
+                        </div>
+
+                        <div class="hour">
+                            <p>6 PM</p>
+                            <img width="50" height="50"
+                                src="https://img.icons8.com/external-inkubators-detailed-outline-inkubators/25/external-sun-cloud-weather-inkubators-detailed-outline-inkubators.png"
+                                alt="external-sun-cloud-weather-inkubators-detailed-outline-inkubators" />
+                            <h2>29°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>43%</p>
+                            </div>
+                        </div>
+
+                        <div class="hour">
+                            <p>7 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/dotty/80/partly-cloudy-night.png"
+                                alt="partly-cloudy-night" />
+                            <h2>28°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>33%</p>
+                            </div>
+
+                        </div>
+                        <div class="hour">
+
+                            <p>8 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cloud--v1.png"
+                                alt="cloud--v1" />
+                            <h2>26°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>33%</p>
+                            </div>
+
+                        </div>
+                        <div class="hour">
+                            <p>9 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cloud--v1.png"
+                                alt="cloud--v1" />
+                            <h2>25°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>39%</p>
+                            </div>
+
+                        </div>
+                        <div class="hour">
+                            <p>10 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cloud-lighting--v1.png"
+                                alt="cloud-lighting--v1" />
+                            <h2>24°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>51%</p>
+                            </div>
+                        </div>
+                        <div class="hour">
+
+                            <p>11 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cloud-lighting--v1.png"
+                                alt="cloud-lighting--v1" />
+                            <h2>24°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>51%</p>
+                            </div>
+
+                        </div>
+                        <div class="hour">
+                            <p>12 PM</p>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cloud--v1.png"
+                                alt="cloud--v1" />
+                            <h2>23°</h2>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                                    alt="rainmeter" />
+                                <p>47%</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div style="border: 2px solid rgb(191, 191, 192); background-color:rgb(191, 191, 192); height: 130px; width: 34px; padding-top: 17%;  border-radius: 6px; "
+                        class="arrow">
+                        <img width="30" height="30" src="https://img.icons8.com/material-two-tone/24/forward.png"
+                            alt="forward" />
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <div class="currentweather2">
+                <div style=" display:flex; gap: 355px;">
+                    <div>10-DAY WEATHER FORECAST</div>
+                </div>
+                <div>
+                    <hr style="border: 1px solid #a2a5a6; ">
+                </div>
+
+                <!--first weatherforecast class start  -->
+                <div class="weatherforecast">
+
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>TONIGHT</h4>
+                        <p>7/20</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>21°</h3>
+                        <p>Lo</p>
+                    </div>
+
+                    <div style="display: flex;">
+                        <h3>
+                            Humid with a t-storm in spots
+                        </h3>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p> 47%</p>
+                    </div>
+                </div>
+                <!-- first weatherforecast class end -->
+
+                <!--second weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>SUN</h4>
+                        <p>7/21</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>27°</h3>
+                        <p>20°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Cloudy, thunderstorms; humid</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center;  gap: 5px;">
+                            <img width="25" height="25"
+                                src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                                alt="external-Thunder-weather-topaz-kerismaker" />
+                            <p>Night: Clouds, a thunderstorm; humid</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>90%</p>
+                    </div>
+                </div>
+                <!-- second weatherforecast class end -->
+
+                <!--3th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>MON</h4>
+                        <p>7/21</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>28°</h3>
+                        <p>20°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Couple of thunderstorms </h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 5px;">
+                            <img width="25" height="25" src="https://img.icons8.com/officel/16/cloud.png" alt="cloud" />
+                            <p>Humid with a t-storm in spots</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>78%%</p>
+                    </div>
+                </div>
+                <!-- 3th weatherforecast class end -->
+
+                <!--4th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>TUE</h4>
+                        <p> 7/23</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>30°</h3>
+                        <p>21°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Cloudy, thunderstorms; humid</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 0px;">
+                            <img width="28" height="28"
+                                src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                                alt="external-Thunder-weather-topaz-kerismaker" />
+                            <p>A shower and t-storm; humid</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>96%</p>
+                    </div>
+                </div>
+                <!-- 4th weatherforecast class end -->
+
+                <!--5th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>WED</h4>
+                        <p>7/24</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="40" height="40" src="https://img.icons8.com/officel/16/cloud.png" alt="cloud" />
+                        <h3>30°</h3>
+                        <p>22°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Humid with a t-storm in spots</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 5px;">
+                            <img width="28" height="28" src="https://img.icons8.com/officel/16/cloud.png" alt="cloud" />
+                            <p>Humid with a t-storm in spots</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>43%</p>
+                    </div>
+                </div>
+                <!-- 5th weatherforecast class end -->
+
+                <!--6th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>THU</h4>
+                        <p> 7/25</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>30°</h3>
+                        <p>21°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Cloudy, thunderstorms; humid</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 0px;">
+                            <img width="28" height="28"
+                                src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                                alt="external-Thunder-weather-topaz-kerismaker" />
+                            <p>Showers and t-storms; humid</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>65%</p>
+                    </div>
+                </div>
+                <!-- 6th weatherforecast class end -->
+
+                <!--7th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>FRI</h4>
+                        <p>7/26</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>30°</h3>
+                        <p>22°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Cloudy, thunderstorms; humid</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 0px;">
+                            <img width="28" height="28" src="https://img.icons8.com/officel/16/cloud.png" alt="cloud" />
+                            <p>Humid; a t-storm around late</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>80%</p>
+                    </div>
+                </div>
+                <!-- 7th weatherforecast class end -->
+
+                <!--8th weatherforecast class start  -->
+                <div class="weatherforecast">
+                    <div style="display: block; row-gap: 0%;">
+                        <h4>SAT</h4>
+                        <p>7/27</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 7px;">
+                        <img width="45" height="45"
+                            src="https://img.icons8.com/external-topaz-kerismaker/48/external-Thunder-weather-topaz-kerismaker.png"
+                            alt="external-Thunder-weather-topaz-kerismaker" />
+                        <h3>28°</h3>
+                        <p>22°</p>
+                    </div>
+
+                    <div style="display:block; row-gap: 0%;">
+                        <h3>Cloudy, thunderstorms; humid</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 0px;">
+                            <img width="28" height="28" src="https://img.icons8.com/officel/16/cloud.png" alt="cloud" />
+                            <p>Humid with a stray t-storm</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content:space-between; align-items: center;">
+                        <img width="19" height="19" src="https://img.icons8.com/fluency/48/rainmeter.png"
+                            alt="rainmeter" />
+                        <p>80%</p>
+                    </div>
+                </div>
+                <!-- 8th weatherforecast class end -->
+            </div>
+
+        </div>
+        <!-- Featured Stories start -->
+        <div class="featuredstories">
+            <div>
+                <h2>Featured Stories</h2>
+                <hr style="border: 1px solid #a2a5a6; ">
+            </div>
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img1.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img6.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img7.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img4.jpg" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img1.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img2.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img3.webp" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+
+
+            <div style="display: flex; gap: 10px;" class="feature">
+                <div style="padding-left:6px;">
+                    <p>WEATHER FORECASTS</p>
+                    <p><b>Showers,thunderstorms to return to Midwest and Northeast </b></p>
+                </div>
+
+                <div style="padding-right:4px;" class="top">
+                    <img src="asset/img/img4.jpg" alt="weather">
+                </div>
+            </div>
+            <hr style="border: 1px solid #a2a5a6; ">
+        </div>
+        <!-- Featured Stories end -->
+    </div>
+
+    <div class="AroundtheWeb">
+        <div
+            style="display: flex; justify-content: space-between; align-items: center; gap: 600px; padding-left: 15px; padding-right: 15px;">
+            <h2>Around the Web</h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 6px;">
+                <p>Powered by</p><img src="asset/img/download.png" alt="">
+            </div>
+        </div>
+        <div
+            style="display: flex; justify-content: space-between; align-items: center; padding-left: 30px; padding-right: 30px; gap: 60px;">
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: block;">
+                    <img src="asset/img/Screenshot 2024-07-05 143516.png" class="img" width="190px" alt="img1">
+                    <p>Heidi Klum's Daughter Looks Like Her Iconic Dad</p>
+
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: block;">
+                    <img src="asset/img/Screenshot1.png" class="img" width="190px" alt="img1">
+                    <p>Get Mortgage Advice Close to Home</p>
+
+                </div>
+            </div>
+
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: block;">
+                    <img src="asset/img/Screenshot 2024-07-14 164653.png" class="img" width="190px" alt="img1">
+                    <p>The Close Relationship Between Stress and Sleep</p>
+
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: block; text-align: justify;">
+                    <img src="asset/img/Screenshot .png" class="img" width="190px" alt="img1">
+                    <p>Unveiling Australia's Finest</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <footer class="footer">
+        <div class="area"
+            style="display: flex; justify-content:left; width: 91%; align-items: center; padding-left: 110px;">
+            <h4>World</h4>
+            <img width="30" height="30" src="https://img.icons8.com/material-two-tone/24/forward.png" alt="forward" />
+            <h4>Asia</h4>
+            <img width="30" height="30" src="https://img.icons8.com/material-two-tone/24/forward.png" alt="forward" />
+            <h4>Nepal</h4>
+            <img width="30" height="30" src="https://img.icons8.com/material-two-tone/24/forward.png" alt="forward" />
+            <h4>Bagmati</h4>
+            <img width="30" height="30" src="https://img.icons8.com/material-two-tone/24/forward.png" alt="forward" />
+            <h4>kathmandu</h4>
+        </div>
+
+        <div
+            style="display: flex; justify-content: left;color: #535353; background-color: #c5c4c4; align-items: center; padding-left: 110px; gap: 10px;">
+            <p>Weather Near Kathmandu:</p>
+            <p>Bhaktapur, Bagmati</p>
+            <p>Kirtipur, Bagmati</p>
+            <p>Patan, Bagmati</p>
+        </div>
+
+        <div class="footer1" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <p>COMPANY</p>
+
+                <p><b>Proven Superior Accuracy</b></p>
+                <p><b>About AccuWeather</b></p>
+                <p><b>Digital Advertising</b></p>
+                <p><b>Careers</b></p>
+                <p><b>Contact Us</b></p>
+                <div style="display: flex; align-items: center;">
+                    <img width="40" height="40"
+                        src=" https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/external-Sun-nutrition-smashingstocks-flat-smashing-stocks.png "
+                        alt="external-Sun-nutrition-smashingstocks-flat-smashing-stocks" />
+
+                    <img width="40" height="40" src="https://img.icons8.com/color/48/facebook-new.png"
+                        alt="facebook-new" />
+                    <img width="40" height="40" src="https://img.icons8.com/color/48/twitter-circled--v1.png"
+                        alt="twitter-circled--v1" />
+
+                </div>
+            </div>
+            <div style="display: block;">
+                <p>PRODUCTS & SERVICES</p>
+                <p><b>For Business</b></p>
+                <p><b>For Partners</b></p>
+                <p><b>For Advertising</b></p>
+                <p><b>AccuWeather APIs</b></p>
+                <p><b>AccuWeather Connect</b></p>
+                <p><b>RealFeel® and RealFeel Shade™</b></p>
+            </div>
+            <div>
+                <p>APPS & DOWNLOADS</p>
+                <p><b>iPhone App</b></p>
+                <p><b>Android App</b></p>
+                <p><b>See all Apps & Downloads</b></p>
+                <p>SUBSCRIPTION SERVICES</p>
+                <p><b>AccuWeather Premium</b></p>
+                <p><b>AccuWeather Professional</b></p>
+            </div>
+            <div>
+                <p>MORE</p>
+                <p><b>AccuWeather Ready</b></p>
+                <p><b>Business</b></p>
+                <p><b>Health</b></p>
+                <p><b>Hurricane</b></p>
+                <p><b>Space and Astronomy</b></p>
+                <p><b>Weather News</b></p>
+
+            </div>
+        </div>
+        <hr style="border: 1px solid #a2a5a6; ">
+        <div style="row-gap: 0px;">
+
+            <div style="font-size: 14px; text-align: center; ">
+                <p>© 2024 AccuWeather, Inc. "AccuWeather" and sun design are registered trademarks of AccuWeather, Inc.
+                    All Rights Reserved.</p>
+            </div>
+            <div style="display: flex;justify-content: center; text-align: center; gap: 5px; font-size:15px;">
+                <p>Terms of Use | </p>
+                <p> Privacy Policy | </p>
+                <p> Cookie Policy</p>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
